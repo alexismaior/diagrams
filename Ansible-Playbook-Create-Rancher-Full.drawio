@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T20:57:39.131Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0SCW9gqExgJwSrrUysGJ" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T20:58:15.513Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="N0d7jJ4_wrwwaN3W0l3n" version="13.10.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1011" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,20 +146,20 @@
         <mxCell id="VpD8w-KAUAByEMXQQ5Yl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-7" target="VpD8w-KAUAByEMXQQ5Yl-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-7" value="Register DNS entry fro ingress" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-7" value="Register DNS entry for ingress" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="764.5" y="387" width="115.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VpD8w-KAUAByEMXQQ5Yl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-8" target="VpD8w-KAUAByEMXQQ5Yl-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VpD8w-KAUAByEMXQQ5Yl-8" value="Add Helm repository" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="764.5" y="453" width="115.5" height="35" as="geometry" />
+          <mxGeometry x="764.5" y="450" width="115.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VpD8w-KAUAByEMXQQ5Yl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-9" target="VpD8w-KAUAByEMXQQ5Yl-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VpD8w-KAUAByEMXQQ5Yl-9" value="Deploy Helm chart(s) on Cluster" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="764.5" y="512" width="115.5" height="35" as="geometry" />
+          <mxGeometry x="764.5" y="511" width="115.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VpD8w-KAUAByEMXQQ5Yl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-10" target="ro4fjz_k7fc-FlAlumym-17">
           <mxGeometry relative="1" as="geometry" />
