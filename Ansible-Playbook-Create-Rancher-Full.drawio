@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T20:03:49.064Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="MRa9R-Hxs4gMF6PY-sPW" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T20:57:39.131Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0SCW9gqExgJwSrrUysGJ" version="13.10.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="798" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1011" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -68,14 +68,14 @@
         <mxCell id="ro4fjz_k7fc-FlAlumym-13" value="Execute Command on Nodes" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="511.5" y="548" width="115.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-15" target="ro4fjz_k7fc-FlAlumym-17">
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-15" target="VpD8w-KAUAByEMXQQ5Yl-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ro4fjz_k7fc-FlAlumym-15" value="Wait for cluster ready" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="652" y="535" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="ro4fjz_k7fc-FlAlumym-17" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="750" y="535" width="59" height="59" as="geometry" />
+          <mxGeometry x="923" y="555" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="JwHX2udDNT2M7cvMBdkV-2" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JwHX2udDNT2M7cvMBdkV-0" target="JwHX2udDNT2M7cvMBdkV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -136,6 +136,36 @@
         </mxCell>
         <mxCell id="JwHX2udDNT2M7cvMBdkV-14" value="Install Kubectl&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;(Ansible Role:&amp;nbsp;andrewrothstein.kubectl)&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="500" y="270" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-6" target="VpD8w-KAUAByEMXQQ5Yl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-6" value="Get kubeconfig from new Cluster" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="764.5" y="327" width="115.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-7" target="VpD8w-KAUAByEMXQQ5Yl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-7" value="Register DNS entry fro ingress" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="764.5" y="387" width="115.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-8" target="VpD8w-KAUAByEMXQQ5Yl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-8" value="Add Helm repository" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="764.5" y="453" width="115.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-9" target="VpD8w-KAUAByEMXQQ5Yl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-9" value="Deploy Helm chart(s) on Cluster" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="764.5" y="512" width="115.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VpD8w-KAUAByEMXQQ5Yl-10" target="ro4fjz_k7fc-FlAlumym-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-10" value="Send Message to Telegram" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="764.5" y="567" width="115.5" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
