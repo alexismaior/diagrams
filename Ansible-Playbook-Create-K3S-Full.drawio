@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-12-05T17:55:14.778Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="3W74hHiTtaMCQmsgMTJr" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-05T18:36:14.191Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7fZrLHde1ZUlm370DnE9" version="13.10.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-3" value="Ansible Role:&amp;nbsp;alexismaior.ansible_role_manage_rancher_cluster&lt;br&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;fontSize=11;labelBackgroundColor=none;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="VpD8w-KAUAByEMXQQ5Yl-3" value="Ansible Role:&amp;nbsp;alexismaior.ansible_role_manage_k3s_cluster" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;fontSize=11;labelBackgroundColor=none;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="315" y="220" width="440" height="293" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JwHX2udDNT2M7cvMBdkV-4" target="JwHX2udDNT2M7cvMBdkV-0" edge="1">
@@ -42,37 +42,34 @@
         <mxCell id="ro4fjz_k7fc-FlAlumym-1" value="Create Cluster Token" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="355" y="433" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ro4fjz_k7fc-FlAlumym-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-7" target="ro4fjz_k7fc-FlAlumym-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ro4fjz_k7fc-FlAlumym-7" value="Get Cluster ID" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="534" y="265" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ro4fjz_k7fc-FlAlumym-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-8" target="ro4fjz_k7fc-FlAlumym-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ro4fjz_k7fc-FlAlumym-8" value="Get Installed Node List" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="534" y="323" width="120" height="30" as="geometry" />
+        <mxCell id="ro4fjz_k7fc-FlAlumym-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-7" target="ro4fjz_k7fc-FlAlumym-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="594" y="271" as="sourcePoint" />
+            <mxPoint x="595" y="366" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ro4fjz_k7fc-FlAlumym-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-11" target="ro4fjz_k7fc-FlAlumym-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ro4fjz_k7fc-FlAlumym-11" value="Create Add Node Command" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="534" y="383" width="121" height="30" as="geometry" />
+        <mxCell id="ro4fjz_k7fc-FlAlumym-11" value="Get the import cluster &#39;curl&#39; command" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="534" y="338" width="121" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ro4fjz_k7fc-FlAlumym-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-13" edge="1">
+        <mxCell id="ro4fjz_k7fc-FlAlumym-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-13" edge="1" target="ro4fjz_k7fc-FlAlumym-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="715" y="458.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ro4fjz_k7fc-FlAlumym-13" value="Execute Command on Nodes" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="536.5" y="441" width="115.5" height="35" as="geometry" />
+        <mxCell id="ro4fjz_k7fc-FlAlumym-13" value="Import Cluster into Rancher" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="536.5" y="417" width="115.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VpD8w-KAUAByEMXQQ5Yl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ro4fjz_k7fc-FlAlumym-15" target="VpD8w-KAUAByEMXQQ5Yl-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ro4fjz_k7fc-FlAlumym-15" value="Wait for cluster ready" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="677" y="428" width="59" height="59" as="geometry" />
+          <mxGeometry x="677" y="406" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="ro4fjz_k7fc-FlAlumym-17" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="948" y="448" width="59" height="59" as="geometry" />
